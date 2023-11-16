@@ -37,8 +37,8 @@ int _strcmp(const char *s1, const  char *s2);
 int _strncmp(const char *s1, const  char *s2, size_t n);
 unsigned int _strlen(const char *s);
 char *_strcpy(char *dest, char *src);
-void free_all(char *buffer, char **commands, char *heap_token);
-int check_built_ins(char *buffer, char *token);
+void ffree(char *buffer, char **commands, char *heap_token);
+int builtin_funcs(char *buffer, char *token);
 
 
 /* STORE PATHS PROTOTYPES */
@@ -47,8 +47,8 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 char *concat(const char *str1, const char *str2);
 
 
-/* PATH PROTOTYPES */
-char *look_inPATH(char **token);
+/* FIND PATH PROTOTYPES */
+char *find_PATH(char **token);
 char *_strchr(char *s, char c);
 
 #endif
