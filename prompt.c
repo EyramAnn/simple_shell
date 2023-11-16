@@ -86,4 +86,3 @@ int process_line(char **buffer, size_t *line_size, int *count)
 	(*count)++;
 	return (error);
 }
-
