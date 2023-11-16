@@ -52,4 +52,3 @@ char *look_inPATH(char **token);
 char *_strchr(char *s, char c);
 
 #endif
-

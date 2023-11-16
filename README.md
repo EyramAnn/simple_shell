@@ -12,4 +12,3 @@ This project was completed using C language Shell Betty linter.
 
 What we Achieved:
 This collaboration helped deepen our understanding of the C-programming language and Shell notwithstanding the few challenges we faced.
-
